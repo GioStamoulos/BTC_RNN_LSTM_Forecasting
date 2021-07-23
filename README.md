@@ -2,7 +2,7 @@
 **Short Description**  
 Two different RNN and two LSTM architectures were trained with bitcoin historical data (time series). The deep reccurent models were trained to take as input specific number of days-values of BTC-USD and gave as output the next day value of BTC-USD. Models were trained in different sizes of time window (number of input days-values) and more speciffically for 20, 30 & 50 days-values. The main goal is to predict after models' training and testing, the 10 future days-values of BTC-USD.  
 **RNN**    
-A recurrent neural network (RNN) is a class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence. This allows it to exhibit temporal dynamic behavior. Derived from feedforward neural networks, RNNs can use their internal state (memory) to process variable length sequences of inputs. [1], [2], [3]   
+A recurrent neural network (RNN) is a class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence. This allows it to exhibit temporal dynamic behavior. Derived from feedforward neural networks, RNNs can use their internal state (memory) to process variable length sequences of inputs. [1], [2] & [3]   
 **LSTM**    
 Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) architecture[4] used in the field of deep learning. Unlike standard feedforward neural networks, LSTM has feedback connections.     
 **Dataset**     
